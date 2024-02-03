@@ -1,0 +1,35 @@
+public class WhatsappMessage {
+
+    public static String readFile(String fileName) {
+        
+        return null;
+    }
+
+    public static String validateContacts(String contacts) {
+        return null;
+    }
+
+    public static String sendWhatsappMessage(String message) {
+        return null;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("System Loading.....");
+        System.out.println("System Loaded Successfully");
+        System.out.println("WELCOME TO THE SYSTEM!!!");
+        System.out.println("Starting Task Execution.....");
+        System.out.println("Task Execution Started Successfully");
+        System.out.println("Collecting Contact List....");
+        System.out.println("Contact list Collected Successfully!!!");
+        System.out.println("Validating Contacts.....");
+        System.out.println("Contacts Validated Successfully!!!");
+        System.out.println("Sending Whatsapp Message.....");
+        sendWhatsappMessage("Hello, this is a test message.");
+        System.out.println("Whatsapp Message Sent Successfully");
+        System.out.println("Ending Task Execution.....");
+        System.out.println("System Task Execution Ended Successfully!!!");
+        System.out.println("THANK YOU FOR USING THE SYSTEM!!!");
+        System.out.println("System Unloading.....");
+        System.out.println("System Unloaded Successfully!!!");
+    }
+}
